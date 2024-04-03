@@ -43,6 +43,29 @@ nav a:hover{
     font-weight: bold;
 }
 
+button{
+    margin-top: 12%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-right: auto;
+    width: 420px;
+    height: 60px;
+    background-color: red;
+    color: #fff;
+    font-family: 'Madimi One';
+    font-size: xx-large;
+    border: 1px inset transparent;
+    border-radius: 50px;
+    box-shadow: 10px 7px grey;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.05);
+}
+
 footer{
     background-color: #ef10d5;
     width: 100%;

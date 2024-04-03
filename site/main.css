@@ -70,10 +70,17 @@
 #content img{
     width: 70%;
     padding: 2% 15%;
+    border-width: 40%;
+    border: 10px inset transparent;
+    background-color: rgb(132, 22, 113);
+    border-radius: 50px;
+    box-shadow: 10px 20px rgb(96, 0, 72);
+    border-image: url("./132d0b11f96dcffaa700966900312a52.jpg") 150 round;
 }
 
 #content p:first-child, #content h2{
     text-align: center;
+    padding-top: 6%;
 }
 
 #footer{
@@ -89,4 +96,6 @@
     text-align: center;
     color: #ffffff;
     padding: 17px 0;
+    font-family: 'Madimi One', 'Tahoma';
+    font-style: italic;
 }
